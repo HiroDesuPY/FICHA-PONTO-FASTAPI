@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from typing import Optional
 
 
-class Funcionario(BaseModel):
+class Funcionario_Schemas(BaseModel):
     id: int
     nome: str
     senha: str
@@ -11,7 +11,7 @@ class Funcionario(BaseModel):
 
 
 
-class PublicFuncionario(Funcionario):
+class PublicFuncionario_Schemas(Funcionario_Schemas):
     id: int
     nome: str
     ativo: bool

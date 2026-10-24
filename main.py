@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 
 
-app = FastAPI(title="API de Registro de Ponto", description="API para registro de ponto de funcionários", version="1.0.0")
+app = FastAPI(title="API de Registro de Ponto", description="API para registro de ponto de funcionários", version="1.0.0", port="8000", host="0.0.0.0")
 
 
 
